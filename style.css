@@ -77,28 +77,33 @@ section p{
 .imagem{
     font-family: var(--fonte3);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.493);
+    background-size: cover;
+    background-attachment: fixed;
 
 }
 
 .imagem p{
-    background-color: rgba(0, 0, 0, 0.514);
+    background-color: rgba(0, 0, 0, 0.5);
     /* width: 400px; */
     padding: 5px;
     display: inline-block;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.534);
+    background-size: cover;
 }
 
 #img01{
     background-image: url('imagens/background001.jpg');
     background-position: right center;
     background-repeat: no-repeat;
-    background-size: cover;
+    
 }
 
 #img02{
     background-image: url('imagens/background002.jpg');
     background-position: right center;
     background-repeat: no-repeat;
-    background-size: cover;
+    
 }
 footer{
     background-color: black;
